@@ -9,7 +9,7 @@ let package = Package(
             targets: ["Lightbox"]),
     ],
     dependencies: [
-      .package(url: "https://github.com/hyperoslo/Imaginary", .branch("master"))
+      .package(url: "https://github.com/richardfrk/Imaginary", .exact("2.5.0"))
     ],
     targets: [
         .target(
